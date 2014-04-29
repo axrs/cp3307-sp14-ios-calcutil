@@ -9,7 +9,10 @@
 #import "CalculatorViewController.h"
 #import "CalculatorModel.h"
 
+#import <AudioToolbox/AudioToolbox.h>
+
 @interface CalculatorViewController () {
+    SystemSoundID clickSoundID;
 }
 @end
 
@@ -20,6 +23,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSBundle *main = [NSBundle mainBundle];
+    NSString *path = [main pathForResource:@"click" ofType:@"mp3"];
+
+    CFURLRef ref = (__bridge CFURLRef)[NSURL fileURLWithPath:path];
+    AudioServicesCreateSystemSoundID(ref, & clickSoundID);
 }
 
 - (id <Calculator>)calculator {
@@ -37,6 +45,7 @@
 }
 
 - (IBAction)valuePressed:(id)sender {
+    AudioServicesPlaySystemSound(clickSoundID);
     double value = [[sender currentTitle] doubleValue];
     [[self calculator] addValue:value];
     [self updateDisplay];
@@ -47,12 +56,14 @@
 }
 
 - (IBAction)clearPressed:(id)sender {
+    AudioServicesPlaySystemSound(clickSoundID);
     [[self calculator] clear];
     [self updateDisplay];
 }
 
 
 - (IBAction)otherPressed:(id)sender {
+    AudioServicesPlaySystemSound(clickSoundID);
     BOOL mainIsHidden = [[self mainView] isHidden];
     [[self mainView] setHidden:!mainIsHidden];
     [[self otherView] setHidden:mainIsHidden];

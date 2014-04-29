@@ -8,15 +8,17 @@ button {
     font: bold 11pt Helvetica, Arial, sans-serif;
     color: #454545;
     border-radius: 4pt;
-    text-shadow: 0pt 1pt 5pt #333;
+    text-shadow: 1pt 1pt 5pt #333;
 }
 
 .button-red {
-    color: #f22b30;
+    color: #fff;
+    background-color: #f22b30;
 }
 
 .button-blue {
-    color: #084887;
+    color: #fff;
+    background-color: #096ec3;
 }
 
 label {
