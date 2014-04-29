@@ -40,6 +40,10 @@
     double value = [[sender currentTitle] doubleValue];
     [[self calculator] addValue:value];
     [self updateDisplay];
+
+    if (value < 1 || value > 9) {
+        [self otherPressed:nil];
+    }
 }
 
 - (IBAction)clearPressed:(id)sender {
@@ -47,6 +51,12 @@
     [self updateDisplay];
 }
 
+
+- (IBAction)otherPressed:(id)sender {
+    BOOL mainIsHidden = [[self mainView] isHidden];
+    [[self mainView] setHidden:!mainIsHidden];
+    [[self otherView] setHidden:mainIsHidden];
+}
 
 - (void)updateDisplay {
     double value = [[self calculator] value];

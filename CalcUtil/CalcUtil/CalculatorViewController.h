@@ -12,6 +12,9 @@
 @interface CalculatorViewController : UIViewController
 
 @property(weak, nonatomic) IBOutlet UILabel *display;
+@property(weak, nonatomic) IBOutlet UIView *mainView;
+@property(weak, nonatomic) IBOutlet UIView *otherView;
+
 @property(strong) id <Calculator> calculator;
 
 - (IBAction)valuePressed:(id)sender;

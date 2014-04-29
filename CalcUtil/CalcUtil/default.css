@@ -15,6 +15,10 @@ button {
     color: #f22b30;
 }
 
+.button-blue {
+    color: #084887;
+}
+
 label {
     font: 11pt Helvetica, Arial, sans-serif;
 }
