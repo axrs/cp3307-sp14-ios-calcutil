@@ -6,6 +6,7 @@
 #import <Foundation/Foundation.h>
 
 @protocol Calculator <NSObject>
+@required
 - (double)value;
 
 - (void)addValue:(double)value;

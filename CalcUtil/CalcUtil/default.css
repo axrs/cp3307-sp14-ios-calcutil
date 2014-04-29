@@ -1,0 +1,26 @@
+view {
+    background-color: #fafafa;
+}
+
+button {
+    border: 1pt solid #bababa;
+    background-color: #dedede;
+    font: bold 11pt Helvetica, Arial, sans-serif;
+    color: #454545;
+    border-radius: 4pt;
+    text-shadow: 0pt 1pt 5pt #333;
+}
+
+.button-red {
+    color: #f22b30;
+}
+
+label {
+    font: 11pt Helvetica, Arial, sans-serif;
+}
+
+.label-background{
+    background-color: #fff;
+    border: 1pt solid #bababa;
+    border-radius: 4pt;
+}
