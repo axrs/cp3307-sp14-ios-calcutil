@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DBA1795417A91A729D8C97C /* CalculatorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1C5D943E52611E8ACE77 /* CalculatorModel.m */; };
 		FA5CF9E2190F2923009B078B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5CF9E1190F2923009B078B /* Foundation.framework */; };
 		FA5CF9E4190F2923009B078B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5CF9E3190F2923009B078B /* CoreGraphics.framework */; };
 		FA5CF9E6190F2923009B078B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5CF9E5190F2923009B078B /* UIKit.framework */; };
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DBA1A68ADD18B26D5EB581E /* CalculatorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorModel.h; sourceTree = "<group>"; };
+		2DBA1C5D943E52611E8ACE77 /* CalculatorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorModel.m; sourceTree = "<group>"; };
+		2DBA1D0ED3FE446BB15EBA1F /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 		FA5CF9DE190F2923009B078B /* CalcUtil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalcUtil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5CF9E1190F2923009B078B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA5CF9E3190F2923009B078B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +123,9 @@
 				FA5CF9F7190F2923009B078B /* ViewController.m */,
 				FA5CF9F9190F2923009B078B /* Images.xcassets */,
 				FA5CF9E8190F2923009B078B /* Supporting Files */,
+				2DBA1D0ED3FE446BB15EBA1F /* Calculator.h */,
+				2DBA1C5D943E52611E8ACE77 /* CalculatorModel.m */,
+				2DBA1A68ADD18B26D5EB581E /* CalculatorModel.h */,
 			);
 			path = CalcUtil;
 			sourceTree = "<group>";
@@ -252,6 +259,7 @@
 				FA5CF9F8190F2923009B078B /* ViewController.m in Sources */,
 				FA5CF9F2190F2923009B078B /* AppDelegate.m in Sources */,
 				FA5CF9EE190F2923009B078B /* main.m in Sources */,
+				2DBA1795417A91A729D8C97C /* CalculatorModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
