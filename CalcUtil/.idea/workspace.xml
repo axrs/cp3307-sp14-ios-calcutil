@@ -17,34 +17,52 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_iPhone_Retina__3_5_inch__7.1" />
   <component name="FavoritesManager">
     <favorites_list name="CalcUtil" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Calculator.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CalcUtil/Calculator.h">
+      <file leaf-file-name="CalculatorModel.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalcUtil/CalculatorModel.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="4" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
+            <state line="11" column="4" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppDelegate.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CalcUtil/AppDelegate.m">
+      <file leaf-file-name="CalculatorViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalcUtil/CalculatorViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+            <state line="61" column="24" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0" vertical-offset="635" max-vertical-offset="1305">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppDelegate.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CalcUtil/AppDelegate.h">
+      <file leaf-file-name="default.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CalcUtil/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+            <state line="1" column="29" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0375" vertical-offset="0" max-vertical-offset="615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalcUtil/main.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="31" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="345">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalculatorViewController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalcUtil/CalculatorViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="45" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
@@ -59,48 +77,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculatorViewController.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CalcUtil/CalculatorViewController.h">
+      <file leaf-file-name="AppDelegate.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalcUtil/AppDelegate.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="49" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CalcUtil/main.m">
+      <file leaf-file-name="AppDelegate.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalcUtil/AppDelegate.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="31" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CalcUtil/default.css">
+      <file leaf-file-name="Calculator.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalcUtil/Calculator.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="31" selection-start="308" selection-end="308" vertical-scroll-proportion="0.62347186" vertical-offset="0" max-vertical-offset="555">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CalculatorViewController.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CalcUtil/CalculatorViewController.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="14" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="1260">
-              <folding>
-                <element signature="e#154#190#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CalculatorModel.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CalcUtil/CalculatorModel.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="4" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
+            <state line="14" column="4" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
@@ -132,10 +130,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
-    <option name="y" value="70" />
-    <option name="width" value="1600" />
-    <option name="height" value="748" />
+    <option name="y" value="22" />
+    <option name="width" value="1366" />
+    <option name="height" value="707" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -189,20 +186,6 @@
               <option name="myItemId" value="CalcUtil" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Frameworks" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CalcUtil" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -215,24 +198,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CalcUtil" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CalcUtil" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CalcUtil" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Supporting Files" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -242,12 +207,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/CalcUtil.xcodeproj" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="CalcUtil" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.CalcUtil">
     <configuration default="false" name="CalcUtil" type="AppleRunConfiguration" factoryName="Application" temporary="true" SCHEME_NAME="CalcUtil" PROJECT_NAME="CalcUtil" TARGET_NAME="CalcUtil" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="CalcUtil" RUN_TARGET_NAME="CalcUtil" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -287,18 +252,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="70" width="1600" height="748" extended-state="0" />
+    <frame x="0" y="22" width="1366" height="707" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35640648" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35579938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11875" sideWeight="0.6435935" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18814056" sideWeight="0.6708464" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978448" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -318,7 +283,9 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CalcUtil/AppDelegate.h">
@@ -359,22 +326,13 @@
     <entry file="file://$PROJECT_DIR$/CalcUtil/CalculatorViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="90" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1095">
-          <folding>
-            <element signature="e#154#190#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalcUtil/CalculatorModel.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="17" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CalcUtil/AppDelegate.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="676">
           <folding />
         </state>
       </provider>
@@ -416,23 +374,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalcUtil/CalculatorViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="49" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+        <state line="17" column="45" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalcUtil/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="676">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalcUtil/CalculatorViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="14" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="1260">
-          <folding>
-            <element signature="e#154#190#0" expanded="true" />
-          </folding>
+        <state line="61" column="24" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0" vertical-offset="635" max-vertical-offset="1305">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalcUtil/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="308" selection-end="308" vertical-scroll-proportion="0.62347186" vertical-offset="0" max-vertical-offset="555">
+        <state line="1" column="29" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0375" vertical-offset="0" max-vertical-offset="615">
           <folding />
         </state>
       </provider>

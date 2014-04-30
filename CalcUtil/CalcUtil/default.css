@@ -4,7 +4,11 @@ view {
 
 button {
     border: 1pt solid #bababa;
+    /*
     background-color: #dedede;
+    */
+
+    background-color: linear-gradient(#ded,#bab);
     font: bold 11pt Helvetica, Arial, sans-serif;
     color: #454545;
     border-radius: 4pt;
@@ -13,12 +17,12 @@ button {
 
 .button-red {
     color: #fff;
-    background-color: #f22b30;
+    background-color: linear-gradient(#f22b30, #dd2a2f);
 }
 
 .button-blue {
     color: #fff;
-    background-color: #096ec3;
+    background-color: linear-gradient(#096ec3, #095ea5);
 }
 
 label {

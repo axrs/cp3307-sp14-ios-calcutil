@@ -44,24 +44,28 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+//On Calculator value press
 - (IBAction)valuePressed:(id)sender {
     AudioServicesPlaySystemSound(clickSoundID);
     double value = [[sender currentTitle] doubleValue];
     [[self calculator] addValue:value];
     [self updateDisplay];
 
+    //Reset to the main view if a value is outside the normal numpad range
     if (value < 1 || value > 9) {
         [self otherPressed:nil];
     }
 }
 
+//On clear button press
 - (IBAction)clearPressed:(id)sender {
     AudioServicesPlaySystemSound(clickSoundID);
     [[self calculator] clear];
     [self updateDisplay];
 }
 
-
+//On other button pressed
 - (IBAction)otherPressed:(id)sender {
     AudioServicesPlaySystemSound(clickSoundID);
     BOOL mainIsHidden = [[self mainView] isHidden];
@@ -69,6 +73,8 @@
     [[self otherView] setHidden:mainIsHidden];
 }
 
+//Update the calculator display to show the new value.
+//ToDo: Notify of changes from within the model.
 - (void)updateDisplay {
     double value = [[self calculator] value];
     NSString *displayValue = [[NSString alloc] initWithFormat:@"%0.2f", value];
